@@ -1,6 +1,6 @@
 .button {
-  background: rgb(121, 119, 52);
-  color: white;
+  background: gold;
+  color: black;
   border: none;
   padding: 15px 30px;
   cursor: pointer;
@@ -9,8 +9,8 @@
 }
 
 .button:hover {
-  background: white;
-  color: rgb(121, 119, 52);
+  background: rgb(202, 202, 202);
+  color: black;
 }
 
 .button:disabled {
