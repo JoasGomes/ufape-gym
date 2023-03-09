@@ -6,3 +6,10 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+.home-img img {
+  min-height: 100vh;
+  min-width: 100%;
+  border-top: 5px solid rgba(255, 217, 0);
+  border-bottom: 5px solid rgba(255, 217, 0);
+}
