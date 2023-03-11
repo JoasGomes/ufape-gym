@@ -1,0 +1,42 @@
+.contato {
+  display: flex;
+  justify-content: center;
+}
+
+.contato img {
+  max-width: 900px;
+  border-top: 5px solid rgba(255, 217, 0, 0.445);
+  border-bottom: 5px solid rgba(255, 217, 0, 0.445);
+  border-radius: 30px;
+  padding: 10px;
+  margin-top: 140px;
+  margin-left: 50px;
+}
+
+.titulo-lista {
+  margin-top: 120px;
+}
+
+.titulo-lista h1 {
+  font-size: 60px;
+  font-weight: 500;
+  background-color: rgba(255, 255, 0, 0.795);
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.904);
+}
+
+.titulo-lista ul {
+  margin-top: 150px;
+  list-style: none;
+}
+
+.titulo-lista li {
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.904);
+  background-color: rgba(255, 255, 0, 0.795);
+  border-radius: 20px;
+}

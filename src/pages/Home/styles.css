@@ -1,10 +1,14 @@
+.App {
+  height: 100vh;
+}
+
 .home-img {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.home-img img {
+.foto-homem {
   min-height: 400px;
   max-height: 900px;
   min-width: 400px;
@@ -16,19 +20,17 @@
   margin-top: 10px;
 }
 
-.div-botao-duvida {
-  position: fixed;
-  margin-left: 20px;
-  padding: 2px;
-}
-
 .botao-duvida {
+  position: fixed;
   background-color: rgba(255, 217, 0, 0.911);
   border-radius: 10px;
   cursor: pointer;
+  max-width: 50px;
+  max-height: 50px;
+  bottom: 50px;
+  right: 50px;
 }
 
 .botao-duvida:hover {
-  padding: 3px;
-  transition: all 0.5s;
+  background-color: rgb(202, 202, 202);
 }
