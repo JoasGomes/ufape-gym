@@ -1,3 +1,5 @@
-export const Produto = () => {
+function Produto() {
   return <div>Produto</div>;
-};
+}
+
+export default Produto;

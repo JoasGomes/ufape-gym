@@ -1,3 +1,5 @@
-export const Contato = () => {
+function Contato() {
   return <div>Contato</div>;
-};
+}
+
+export default Contato;

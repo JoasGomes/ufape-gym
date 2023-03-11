@@ -2,10 +2,11 @@
   background: gold;
   color: black;
   border: none;
-  padding: 15px 30px;
+  padding: 10px 20px;
   cursor: pointer;
   margin: 10px 10px;
-  border-radius: 10px;
+  border-radius: 25px;
+  font-size: 20px;
 }
 
 .button:hover {

@@ -1,3 +1,5 @@
-export const Erro = () => {
+function Erro() {
   return <div>Erro</div>;
-};
+}
+
+export default Erro;
