@@ -6,10 +6,17 @@ function Login() {
     <div className="login">
       <HeaderNoBtn />
       <div className="container-login">
+        <div className="titulo-login">
+          <h1>Login:</h1>
+        </div>
         <form>
-          <label for="usuario">Usuário:</label>
+          <label for="usuario">
+            <strong>Usuário:</strong>
+          </label>
           <input type="text" name="login" />
-          <label for="senha">Senha:</label>
+          <label for="senha">
+            <strong>Senha:</strong>
+          </label>
           <input type="password" name="senha" />
         </form>
       </div>
