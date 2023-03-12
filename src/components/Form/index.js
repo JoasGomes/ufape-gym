@@ -17,6 +17,10 @@ export const Form = () => {
             <strong>Sobrenome:</strong>
           </label>
           <input type="text" className="nome" name="nome" />
+          <label for="usuario">
+            <strong>Nome de Usuário:</strong>
+          </label>
+          <input type="text" className="nome" name="nome" />
           <label for="email">
             <strong>Email:</strong>
           </label>
