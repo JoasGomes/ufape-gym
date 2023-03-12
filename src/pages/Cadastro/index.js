@@ -1,5 +1,13 @@
+import { Form } from "../../components/Form";
+import { HeaderNoBtn } from "../../components/HeaderNoBtn";
+
 function Cadastro() {
-  return <div>Cadastro</div>;
+  return (
+    <div>
+      <HeaderNoBtn />
+      <Form />
+    </div>
+  );
 }
 
 export default Cadastro;

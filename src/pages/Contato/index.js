@@ -10,11 +10,21 @@ function Contato() {
         <div className="titulo-lista">
           <h1>Entre em contato conosco!</h1>
           <ul>
-            <li>Nosso número para contato: xx-xxxxxxxx</li>
-            <li>Nos mande um Email: exemplo@email.com</li>
-            <li>Nossa localização: Rua Brasil, 123</li>
-            <li>Dias que estamos abertos: seg a sext</li>
-            <li>Horários: 7h da manhã às 10h da noite</li>
+            <li>
+              <strong>Nosso número para contato:</strong> xx-xxxxxxxx
+            </li>
+            <li>
+              <strong>Nos mande um Email:</strong> exemplo@email.com
+            </li>
+            <li>
+              <strong>Nossa localização:</strong> Rua Brasil, 123
+            </li>
+            <li>
+              <strong>Dias que estamos abertos:</strong> seg a sext
+            </li>
+            <li>
+              <strong>Horários:</strong> 7h da manhã às 10h da noite
+            </li>
           </ul>
         </div>
         <img src={mulheresTreinando} alt="mulheres treinando" />

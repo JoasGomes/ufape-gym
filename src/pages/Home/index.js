@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="App">
+    <div className="home">
       <Header />
       <Text />
       <div className="home-img">
